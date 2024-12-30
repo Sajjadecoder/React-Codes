@@ -1,16 +1,12 @@
-import reactLogo from '../src/assets/react.svg'
-import '../src/index.css'
+import chefIcon from './cheficon.png'
+import './header.css' 
 export default function Header() {
   return (
     <>
-      <nav>
-        <img src={reactLogo} alt="React Logo" />
-        <ul className="box">
-          <li>Pricing</li>
-          <li>About</li>
-          <li>List Items</li>
-        </ul>
-      </nav>
+      <header>
+        <img src={chefIcon} alt="Icon Logo" />
+        <h2>Chef Claude</h2>
+      </header>
     </>
   );
 }
