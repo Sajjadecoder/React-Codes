@@ -1,14 +1,5 @@
-form{
-    display: flex;
-    /* align-items: center; */
-    justify-content: center;
-    gap: 10px;
-    width: 100vw;
-    flex-direction: row;
-    background-color: #cfcece;
-    margin-top: 20px;
-}
-button{
+
+/* button{
     background-color: black;
     border: none;
     padding: 0 15px;
@@ -16,7 +7,7 @@ button{
     border-radius: 5px;
     color: white;
     font-size: 13px;
-}
+} */
 input{
 
     padding: 5px 15px;
