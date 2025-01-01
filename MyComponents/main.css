@@ -8,13 +8,38 @@
     color: white;
     font-size: 13px;
 } */
+li::marker{
+    color: rgb(8, 102, 97);
+    size: 10px;
+}
 input{
 
     padding: 5px 15px;
     border: none;
-    /* flex-grow: 1; */
-
     border-radius: 5px;
     border: 2px solid grey;
 
+}
+.get-recipe h4{
+    font-size:  1.3rem;;
+}
+.get-recipe p{
+    margin-top: -25px;
+    font-size: 16px;
+}
+.get-recipe{
+    margin-top: 20px;
+    display: flex;
+    border-radius: 5px;
+    padding: 0 10px;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    background-color: rgb(160, 159, 159);
+}
+.get-recipe-btn{
+    background-color: rgb(236, 112, 28);
+    color: white;
+    padding: 10px 15px ;
+    margin-top: 15px;
 }

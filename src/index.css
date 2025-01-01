@@ -67,12 +67,12 @@ button:focus-visible {
 } */
 
 form{
+  margin-top: 10px;
   display: flex;
-  align-items: center;
-  /* justify-content: center; */
-  border: 2px solid black;
+  /* align-items: center; */
+  justify-content: center;
   gap: 10px;
-  flex-direction: column;
+  flex-direction: row;
 }
 img{
   width: 5%;
@@ -80,7 +80,7 @@ img{
 button{
   background-color: black;
   border: none;
-  padding: 10px 15px;
+  padding: 0px 15px;
 
   border-radius: 5px;
   color: white;
@@ -91,13 +91,4 @@ div{
   align-items: center;
   justify-content: center;
   flex-direction: column;
-}
-
-.box{
-  list-style: none;
-  margin-right: 3vw;
-  display: flex;
-  align-items: center;
-  justify-content:center;
-  gap: 30px;
 }
